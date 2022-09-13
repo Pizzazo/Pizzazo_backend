@@ -11,7 +11,7 @@ class Order extends Model
 
     protected $fillable = [
         'user_id',
-        'pizza_id',
+        'product_id',
         'slices',
         'date_of_order'
     ];
